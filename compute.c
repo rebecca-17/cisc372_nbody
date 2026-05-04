@@ -67,7 +67,7 @@ __global__ void update(vector3* accels, vector3* pos, vector3* vel, int N) {
 }
 
 
-extern "C" void compute(){
+void compute(){
     int N = NUMENTITIES;
 
     // Allocate + copy once
